@@ -74,75 +74,76 @@ colors.get_colors = function()
 			vscDarkYellow = "#FFD602",
 			vscPink = "#C586C0",
 		}
-	else
-		mycolors = {
-			vscNone = "NONE",
-			vscFront = "#343434",
-			vscBack = "#FFFFFF",
-
-			vscTabCurrent = "#FFFFFF",
-			vscTabOther = "#CECECE",
-			vscTabOutside = "#E8E8E8",
-
-			vscLeftDark = "#F3F3F3",
-			vscLeftMid = "#E5E5E5",
-			vscLeftLight = "#F3F3F3",
-
-			vscPopupFront = "#000000",
-			vscPopupBack = "#F3F3F3",
-			vscPopupHighlightBlue = "#0064c1",
-			vscPopupHighlightGray = "#767676",
-
-			vscSplitLight = "#EEEEEE",
-			vscSplitDark = "#DDDDDD",
-			vscSplitThumb = "#DFDFDF",
-
-			vscCursorDarkDark = "#E5EBF1",
-			vscCursorDark = "#6F6F6F",
-			vscCursorLight = "#767676",
-			vscSelection = "#ADD6FF",
-			vscLineNumber = "#098658",
-
-			vscDiffRedDark = "#FFCCCC",
-			vscDiffRedLight = "#FFA3A3",
-			vscDiffRedLightLight = "#FFCCCC",
-			vscDiffGreenDark = "#DBE6C2",
-			vscDiffGreenLight = "#EBF1DD",
-			vscSearchCurrent = "#A8AC94",
-			vscSearch = "#F8C9AB",
-
-			vscGitAdded = "#587c0c",
-			vscGitModified = "#895503",
-			vscGitDeleted = "#ad0707",
-			vscGitRenamed = "#007100",
-			vscGitUntracked = "#007100",
-			vscGitIgnored = "#8e8e90",
-			vscGitStageModified = "#895503",
-			vscGitStageDeleted = "#ad0707",
-			vscGitConflicting = "#ad0707",
-			vscGitSubmodule = "#1258a7",
-
-			vscContext = "#D2D2D2",
-			vscContextCurrent = "#929292",
-
-			vscFoldBackground = "#e6f3ff",
-
-			-- Syntax colors
-			vscGray = "#000000",
-			vscViolet = "#000080",
-			vscBlue = "#0000FF",
-			vscDarkBlue = "#007ACC",
-			vscLightBlue = "#0451A5",
-			vscGreen = "#008000",
-			vscBlueGreen = "#16825D",
-			vscLightGreen = "#098658",
-			vscRed = "#FF0000",
-			vscOrange = "#C72E0F",
-			vscLightRed = "#A31515",
-			vscYellowOrange = "#800000",
-			vscYellow = "#795E26",
-			vscPink = "#AF00DB",
-		}
+		--light colors
+		-- else
+		-- 	mycolors = {
+		-- 		vscNone = "NONE",
+		-- 		vscFront = "#343434",
+		-- 		vscBack = "#FFFFFF",
+		--
+		-- 		vscTabCurrent = "#FFFFFF",
+		-- 		vscTabOther = "#CECECE",
+		-- 		vscTabOutside = "#E8E8E8",
+		--
+		-- 		vscLeftDark = "#F3F3F3",
+		-- 		vscLeftMid = "#E5E5E5",
+		-- 		vscLeftLight = "#F3F3F3",
+		--
+		-- 		vscPopupFront = "#000000",
+		-- 		vscPopupBack = "#F3F3F3",
+		-- 		vscPopupHighlightBlue = "#0064c1",
+		-- 		vscPopupHighlightGray = "#767676",
+		--
+		-- 		vscSplitLight = "#EEEEEE",
+		-- 		vscSplitDark = "#DDDDDD",
+		-- 		vscSplitThumb = "#DFDFDF",
+		--
+		-- 		vscCursorDarkDark = "#E5EBF1",
+		-- 		vscCursorDark = "#6F6F6F",
+		-- 		vscCursorLight = "#767676",
+		-- 		vscSelection = "#ADD6FF",
+		-- 		vscLineNumber = "#098658",
+		--
+		-- 		vscDiffRedDark = "#FFCCCC",
+		-- 		vscDiffRedLight = "#FFA3A3",
+		-- 		vscDiffRedLightLight = "#FFCCCC",
+		-- 		vscDiffGreenDark = "#DBE6C2",
+		-- 		vscDiffGreenLight = "#EBF1DD",
+		-- 		vscSearchCurrent = "#A8AC94",
+		-- 		vscSearch = "#F8C9AB",
+		--
+		-- 		vscGitAdded = "#587c0c",
+		-- 		vscGitModified = "#895503",
+		-- 		vscGitDeleted = "#ad0707",
+		-- 		vscGitRenamed = "#007100",
+		-- 		vscGitUntracked = "#007100",
+		-- 		vscGitIgnored = "#8e8e90",
+		-- 		vscGitStageModified = "#895503",
+		-- 		vscGitStageDeleted = "#ad0707",
+		-- 		vscGitConflicting = "#ad0707",
+		-- 		vscGitSubmodule = "#1258a7",
+		--
+		-- 		vscContext = "#D2D2D2",
+		-- 		vscContextCurrent = "#929292",
+		--
+		-- 		vscFoldBackground = "#e6f3ff",
+		--
+		-- 		-- Syntax colors
+		-- 		vscGray = "#000000",
+		-- 		vscViolet = "#000080",
+		-- 		vscBlue = "#0000FF",
+		-- 		vscDarkBlue = "#007ACC",
+		-- 		vscLightBlue = "#0451A5",
+		-- 		vscGreen = "#008000",
+		-- 		vscBlueGreen = "#16825D",
+		-- 		vscLightGreen = "#098658",
+		-- 		vscRed = "#FF0000",
+		-- 		vscOrange = "#C72E0F",
+		-- 		vscLightRed = "#A31515",
+		-- 		vscYellowOrange = "#800000",
+		-- 		vscYellow = "#795E26",
+		-- 		vscPink = "#AF00DB",
+		-- 	}
 	end
 
 	-- Other ui specific colors
