@@ -1,6 +1,6 @@
 local c = require("darkplus.palette")
 -- colors comr from vscode.nvim
-local vsc = require("darkplus.colors")
+local vsc = require("darkplus.colors").get_colors()
 
 local hl = vim.api.nvim_set_hl
 local theme = {}
