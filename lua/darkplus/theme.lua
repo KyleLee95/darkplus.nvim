@@ -1,11 +1,13 @@
 local c = require("darkplus.palette")
+-- colors comr from vscode.nvim
+local vsc = require("darkplus.colors")
 
 local hl = vim.api.nvim_set_hl
 local theme = {}
 
 theme.set_highlights = function()
 	-- Editor
-	hl(0, "Normal", { fg = c.fg, bg = c.bg })
+	hl(0, "Normal", { fg = vsc.fg, bg = c.bg })
 	hl(0, "SignColumn", { fg = "NONE", bg = c.bg })
 	hl(0, "MsgArea", { fg = c.fg, bg = c.bg })
 	hl(0, "ModeMsg", { fg = c.fg, bg = c.alt_bg })
@@ -309,9 +311,9 @@ theme.set_highlights = function()
 	hl(0, "LirEmptyDirText", { link = "Comment" })
 
 	-- Neo-Tree
-	hl(0, "NeoTreeDirectoryIcon", { fg = c.blue_1, bg = "NONE" })
-	hl(0, "NeoTreeDirectoryName", { fg = c.blue_1, bg = "NONE" })
-	hl(0, "NeoTreeFileName", { fg = c.ui_white, bg = "NONE" })
+	hl(0, "NeoTreeDirectoryIcon", { fg = vsc.vscBlue, bg = "NONE" })
+	hl(0, "NeoTreeDirectoryName", { fg = vsc.vscBlue, bg = "NONE" })
+	-- hl(0, "NeoTreeFileName", { fg = c.ui_white, bg = "NONE" })
 	-- NvimTree
 	-- hl(0, "NvimTreeFolderIcon", { fg = c.alt_fg, bg = "NONE" })
 	-- hl(0, "NvimTreeIndentMarker", { fg = c.alt_fg, bg = "NONE" })
@@ -341,9 +343,12 @@ theme.set_highlights = function()
 	hl(0, "NvimTreeExecFile", { fg = c.ui_green, bg = "NONE" })
 
 	-- Git
-	hl(0, "GitSignsAdd", { fg = c.gitsigns_add, bg = "NONE" })
-	hl(0, "GitSignsChange", { fg = c.gitsigns_change, bg = "NONE" })
-	hl(0, "GitSignsDelete", { fg = c.gitsigns_delete, bg = "NONE" })
+	hl(0, "GitSignsAdd", { fg = c.vscGreen, bg = "NONE" })
+	hl(0, "GitSignsChange", { fg = c.vscYellow, bg = "NONE" })
+	hl(0, "GitSignsDelete", { fg = c.vscRed, bg = "NONE" })
+	hl(0, "GitSignsAddLn", { fg = c.vscBack, bg = c.vscGreen })
+	hl(0, "GitSignsChangeLn", { fg = c.vscBack, bg = c.vscYellow })
+	hl(0, "GitSignsDeleteLn", { fg = c.vscBack, bg = c.vscRed })
 
 	-- Cmp
 	hl(0, "CmpItemAbbrDeprecated", { fg = "#999999", bg = "NONE", strikethrough = true })
