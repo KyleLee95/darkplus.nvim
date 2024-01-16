@@ -310,7 +310,7 @@ theme.set_highlights = function()
 
 	-- Neo-Tree
 	hl(0, "NeoTreeDirectoryIcon", { fg = c.blue_1, bg = "NONE" })
-	hl(0, "NeoTreeDirectoryName", { fg = c.ui_white, bg = "NONE" })
+	hl(0, "NeoTreeDirectoryName", { fg = c.blue_1, bg = "NONE" })
 	hl(0, "NeoTreeFileName", { fg = c.ui_white, bg = "NONE" })
 	-- NvimTree
 	-- hl(0, "NvimTreeFolderIcon", { fg = c.alt_fg, bg = "NONE" })
