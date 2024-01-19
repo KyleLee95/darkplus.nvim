@@ -1,7 +1,8 @@
 [information]
 name = "darkplus"
 background = "dark"
-author = 'Christian Chiarulli <chrisatmachine@gmail.com>'
+original_author = 'Christian Chiarulli <chrisatmachine@gmail.com>'
+forked_author = 'Kyle Lee <kyle@kylelee.dev>'
 
 [palette]
 fg = '#D4D4D4'

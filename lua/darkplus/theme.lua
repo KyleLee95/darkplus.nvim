@@ -155,6 +155,7 @@ theme.set_highlights = function()
 	hl(0, "@keyword.operator", { link = "Keyword" })
 	hl(0, "@keyword.return", { link = "Include" })
 	hl(0, "@keyword.coroutine", { link = "Include" })
+	hl(0, "@keyword.import.latex", { fg = c.purple, bg = "NONE" })
 	hl(0, "@conditional", { link = "Conditional" })
 	hl(0, "@repeat", { link = "Repeat" })
 	hl(0, "@debug", { link = "Debug" })
@@ -450,6 +451,15 @@ theme.set_highlights = function()
 	hl(0, "@lsp.type.class.markdown", { fg = c.blue_1, bg = "NONE" })
 	hl(0, "@text.literal.markdown_inline", { fg = c.orange, bg = "NONE" })
 	hl(0, "@text.literal.markdown", { fg = c.orange, bg = "NONE" })
+
+	-- Latex/Markup
+	hl(0, "@markup.math.latex", { fg = c.dark_yellow, bg = "NONE" })
+	hl(0, "@markup.environment.latex", { fg = c.yellow, bg = "NONE" })
+	hl(0, "@markup.environment.name.latex", { fg = c.cyan, bg = "NONE" })
+	hl(0, "@markup.strong.latex", { fg = c.green_1, bg = "NONE", bold = true })
+	hl(0, "@markup.heading.3.latex", { fg = c.green_1, bg = "NONE", bold = true })
+	hl(0, "@markup.macro.item", { fg = c.purple, bg = "NONE" })
+	hl(0, "@module", { fg = c.purple, bg = "NONE" })
 
 	-- Lua
 	hl(0, "@lsp.type.property.lua", { fg = c.fg, bg = "NONE" })
