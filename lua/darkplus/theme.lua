@@ -585,6 +585,12 @@ theme.set_highlights = function()
 	hl(0, "NoiceFormatProgressDone", { fg = c.fg, bg = c.select })
 	hl(0, "NoiceCmdlinePrompt", { fg = c.fg, bg = "NONE" })
 	hl(0, "NoiceCmdlineIconSearch", { link = "DiagnosticSignHint" })
+
+	-- Python specific
+	hl(0, "@keyword.repeat.python", { fg = c.purple, bg = "NONE" })
+	hl(0, "@keyword.operator.python", { fg = c.purple, bg = "NONE" })
+	hl(0, "@keyword.import.python", { fg = c.purple, bg = "NONE" })
+	hl(0, "@keyword.conditional.python", { fg = c.purple, bg = "NONE" })
 end
 
 return theme
