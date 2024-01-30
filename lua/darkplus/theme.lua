@@ -484,6 +484,7 @@ theme.set_highlights = function()
 	hl(0, "typescriptCall", { fg = c.fg, bg = "NONE" })
 	hl(0, "typescriptTemplateSB", { fg = c.purple, bg = "NONE" })
 	hl(0, "typescriptBraces", { fg = c.fg, bg = "NONE" })
+	hl(0, "keyword.conditional.typescript", { fg = c.purple, bg = "NONE" })
 
 	-- CSS
 	hl(0, "@string.special.css", { fg = c.dark_yellow, bg = "NONE" })
