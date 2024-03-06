@@ -459,6 +459,10 @@ theme.set_highlights = function()
 	hl(0, "@markup.strong.latex", { fg = c.green_1, bg = "NONE", bold = true })
 	hl(0, "@markup.heading.3.latex", { fg = c.green_1, bg = "NONE", bold = true })
 	hl(0, "@markup.macro.item", { fg = c.purple, bg = "NONE" })
+
+	hl(0, "@markup.raw.block.markdown", { fg = c.dark_yellow, bg = "NONE" })
+
+	hl(0, "@markup.raw.delimiter.markdown", { fg = c.dark_yellow, bg = "NONE" })
 	hl(0, "@module", { fg = c.purple, bg = "NONE" })
 
 	-- Lua
